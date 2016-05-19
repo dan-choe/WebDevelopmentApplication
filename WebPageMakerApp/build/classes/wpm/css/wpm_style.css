@@ -1,0 +1,77 @@
+/* 
+    This style sheet stylizes the controls inside our
+    Web Page Maker JavaFX application. Note that controls
+    in the UI must have the same class as those below in 
+    order to be rendered using those properties.
+
+    Author:	Richard McKenna
+    Author:	?
+    Version:	1.0
+*/
+
+.tag_button {
+    -fx-background-color: 
+        linear-gradient(#ffd65b, #e68400),
+        linear-gradient(#ffef84, #f2ba44),
+        linear-gradient(#ffea6a, #efaa22),
+        linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+        linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 10 20 10 20;
+}
+
+.remove_button {
+    -fx-graphic:url('../../../../images/RemoveElement.png');
+    -fx-background-color: 
+        linear-gradient(#ffd65b, #e68400),
+        linear-gradient(#ffef84, #f2ba44),
+        linear-gradient(#ffea6a, #efaa22),
+        linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+        linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 10 20 10 20;
+}
+
+.max_pane {
+    -fx-fit-to-height: true;
+    -fx-fit-to-width: true;
+    -fx-background-color:#fff;
+}
+
+.heading_label {
+    -fx-font-size: 20pt;
+    -fx-font-weight: bold;
+}
+
+.subheading_label {
+    -fx-font-size: 14pt;
+    -fx-font-weight: bold;
+}
+
+.prompt_label {
+    -fx-font-size: 13pt;
+    -fx-font-weight: bold;
+}
+
+
+.prompt_text_field {
+    -fx-font-size: 13pt;
+}
+
+
+.bordered_pane {
+    -fx-padding: 10 10 10 10;
+    -fx-border-color: #2828a4;
+    -fx-border-insets: 0;
+    -fx-border-width: 2;
+    -fx-border-style: solid;
+    -fx-background-color:#6666ff;
+}
