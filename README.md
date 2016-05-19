@@ -6,7 +6,7 @@ Time spent : 15 hours spent in total
 
 # Example
 
-<img src='https://raw.githubusercontent.com/dan-choe/UMLDesignApplication/master/uml.png'>
+<img src='https://raw.githubusercontent.com/dan-choe/WebDevelopmentApplication/master/Screenshot%20(569).png'>
 
 
 ## License
